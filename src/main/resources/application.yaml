@@ -7,8 +7,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: nebinmohammed.sa.007@gmail.com
-    password: knyc iqac tngk rquu    
+    username: 
+    password:     
     properties:
       mail:
         smtp:
@@ -18,7 +18,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/nebin_test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
-    password: AMD99#gch
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -30,7 +30,7 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
 
 email:
-  from-email: nebinmohammed.sa.007@gmail.com
+  from-email: 
   from-name: Mohammed Nebin - Based in UAE
   subject: Immediate Joiner - Full Stack/Backend Developer (Java/Spring Boot/Angular) - 5+ Years Exp - Mohammed Nebin B S
   attachments-folder: /home/mohammed-nebin/Mail Attach
